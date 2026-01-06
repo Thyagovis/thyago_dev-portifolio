@@ -1,112 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thyago - dev</title>
-
-    <link rel="shortcut icon" href="codigo-html.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Michroma&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Thyago - Dev </title>
 </head>
 <body>
 
     <header>
 
-        <nav>
-            <a href="#apresentacao">Sobre mim</a>
-            <a href="#formacao">Formações</a>
-            <a href="#contatos">Contatos</a>
-        </nav>
+        <ul>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contatos">Contato</a></li>
+        </ul>
 
     </header>
 
     <main>
 
-        <section class ="apresentacao" id="apresentacao">
+        <div class="hero">
 
-            <div class="texto">
-                <div class="titulo">
+            
+            <div class="text">
+                
+                <h1>Thyago Ferreira</h1>
+                <h2>Desenvolvedor FullStack</h2>
+                <p>Especializado em automações com python, com conhecimentos em front-end, para a criação de aplicações.</p>
+            </div>
+            
+            <div class="dev-image">
 
-                    <h1>Thyago Ferreira</h1>
-                    <h2 class="cargo">Desenvolvedor Back-end</h2>
-
-                </div>
-
-                <p>Programador Back-end com foco em python, especializado em manipulação e tratamento de dados, e automação de tarefas</p>
 
             </div>
+        </div>
 
-            <div class="imagem">
+        <div class="projetos" id="projetos">
 
-            </div>
-
-        </section>
-
-        <section class="formacao" id="formacao">
-
-            <h1>
-                Formação
-            </h1>
+            <h3>TRABALHOS SELECIONADOS</h3>
+            <h2>Projetos</h2>
 
             <div class="cards">
 
                 <div class="card">
-                    <h2>Bacharelado em Ciências da Computação</h1>
-                    <p> Instituto Federal de Educação, Ciência e Tecnologia do Ceará</p>
-                    <p>2025 - Até o momento</p>
+                    <img src="assets/projetos/aliança_imobiliaria.png" alt="">
+
+                    <div class="text-card">
+
+                        <h2>Aliança Imobiliária</h2>
+                        <p>Landing page de uma empresa fictícia</p>
+                        <div class="tecs">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+
+                    </div>
                 </div>
 
                 <div class="card">
-                    <h2>Técnico em Desenvolvimento de sistemas</h1>
-                    <p>Escola Estadual de Ensino Profissional Professor César Campelo</p>
-                    <p>2022 - 2024</p>
+                    <img src="assets/projetos/crypto_hub.png" alt="">
+
+                    <div class="text-card">
+                        
+                        <h2>Crypto Hub</h2>
+                        <p>Página para visualização de valores atuais de cripto moedas</p>
+                        <div>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JS</p>
+                        </div>
+
+                    </div>
                 </div>
+
             </div>
 
-        </section>
+        </div>
 
-        <section class="contatos" id="contatos">
+        <div class="sobre" id="sobre">
 
-            <a href="mailto:thyagosilva321123@gmail.com" target="_blank">
-                <div class="contato">
-                    <img src="./assets/o-email.png" alt="" class="icon">
-                    <h2>Email</h2>
-                </div>
-            </a>
-            
-            <a href="https://www.linkedin.com/in/thyago-da-silva-ferreira-b6b0442a4/" target="_blank">
-                <div class="contato">
-                    <img src="assets/linkedin.png" alt="" class="icon">
-                    <h2>Linkedin</h2>
-                </div>
-            </a>
+            <h3>CONHEÇA MAIS</h3>
+            <h2>Sobre</h2>
 
-            <a href="https://github.com/Thyagovis" target="_blank">
-                <div class="contato">
-                    <img src="./assets/github.png" alt="" class="icon">
-                    <h2>GitHUb</h2>
-                </div>
-            </a>
-           
-            <a href="https://www.instagram.com/thyagovis/" target="_blank">
-                <div class="contato">
-                    <img src="assets/instagram (1).png" alt="" class="icon">
-                    <h2>Instagram</h2>
-                </div>
-            </a>
+            <p>
+                Sou formado no Ensino Técnico em Desenvolvimento de Sistemas e atualmente estou me graduando em Ciências da Computação pelo Instituto Federal do Ceará (IFCE).
+            </p>
+            <p> Tenho grande interesse na área de automação, buscando sempre soluções que otimizem processos e aumentem a eficiência dos sistemas. Possuo conhecimentos em desenvolvimento front-end, trabalhando com a construção de interfaces funcionais e bem estruturadas, e estou constantemente aprimorando minhas habilidades técnicas e práticas no desenvolvimento de software.</p>
 
-          
-        </section>
+            <h3>Habilidades</h3>
+            <div class="habilidades-cards">
+                <div><img src="assets/habilidades/python.png" alt=""><div>
+                <div><img src="assets/habilidades/mysql.png" alt=""></div>
+                <div><img src="assets/habilidades/javascript.png" alt=""></div>
+                <div><img src="assets/habilidades/html.png" alt=""></div>
+                <div><img src="assets/habilidades/css.png" alt=""></div>
+            </div>
+        </div>
+
+        <div class="contatos" id="contatos">
+
+            <h3>Vamos conversar</h3>
+            <h2>Contato</h2>
+
+
+        
+            <p>Interessado em trabalhar juntos? Adoraria ouvir sobre seu projeto.</p>
+
+            <div class="Redes">
+
+                <div class="buttons"><a href="https://github.com/Thyagovis"><img src="assets/contatos/github.png" alt=""></a></div>
+
+                <div class="buttons"><a href="https://www.linkedin.com/in/thyago-da-silva-ferreira-b6b0442a4/"><img src="assets/contatos/linkedin.png" alt=""></a></div>
+
+                <div class="buttons"><a href="https://www.instagram.com/thyagovis/"><img src="assets/contatos/instagram.png" alt=""></a></div>
+
+                <div class="buttons"><a href="mailto:thyagosilva321123@gmail.com"><img src="assets/contatos/e-mail.png" alt=""></a></div>
+
+            </div>
+
+
+        </div>
 
     </main>
-
     
 </body>
-</html>
+</html>     
