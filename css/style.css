@@ -4,15 +4,49 @@ body{
 
 }
 
-h1, h2{
+h1{
 
     color: #FCFCFC;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h2{
+
+    color: #FCFCFC;
+    font-weight: 400;
+    font-size: 2rem;
+    align-self: flex-start;
+
+}
+
+h3{
+
+    align-self: flex-start;
+    color: #B5B5B5;
+    font-size: 14px;
 
 }
 
 p, a{
 
     color: #B5B5B5;
+    font-weight: 300;
+    align-self: flex-start;
+    font-size: 1.5rem;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 80%;
+    align-items: start;
+    gap: 20px;
 
 }
 
@@ -23,7 +57,6 @@ header{
     align-items: center;
     width: 100%;
     height: 10vh;
-    background-color: #25252574;
     border-bottom: 1px solid #B5B5B5;
 
     ul{
@@ -67,11 +100,9 @@ main{
 
 .hero{
 
-    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
-    height: 90vh;
 
 }
 
@@ -84,51 +115,17 @@ main{
     width: 60%;
     gap: 10px;
 
-    h1{
-
-        font-size: 40px;
-        font-weight: 700;
-    }
 
     h2{
-
-        font-weight: 500;
-
+        align-self: center;
     }
 
     p{
-
         width: 80%;
-        font-size: 24px;
-        font-weight: 300;
+        align-self: center;
         text-align: center;
     }
 
-}
-
-.projetos{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 100vh;
-    gap: 20px;
-
-    h3{
-
-        align-self: flex-start;
-        color: #B5B5B5;
-        font-size: 14px;
-    }
-
-    h2{
-
-        align-self: flex-start;
-        font-size: 32px;
-        font-weight: 500;
-    }   
 }
 
 .cards{
@@ -162,20 +159,13 @@ main{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    
     h2{
-    
-        font-size: 16px;
-        font-weight: 500;
-        align-self: flex-start;
-    
+        font-size: 1.2rem;
     }
     
     p{
-    
-        font-size: 14px;
-        font-weight: 300;
-        align-self: flex-start;
-    
+        font-size: 1rem;
     }
     
     div{
@@ -187,122 +177,71 @@ main{
     
             color: #FCFCFC;
             background-color: #454545;
-            font-size: 8px;
-            font-weight: 300;
+            font-size: 0.8rem;
             padding: 5px 10px;
         }
     }
 }
 
-.sobre{
+.habilidades{
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
-    height: 100vh;
-    gap: 20px;
+    width: 100%;
 
-    h3{
-
-        align-self: flex-start;
-        color: #B5B5B5;
-        font-size: 14px;
-    }
-
-    h2{
-
-        align-self: flex-start;
-        font-size: 32px;
-        font-weight: 500;
-    }
-    
-    p{
-
-        color: #FCFCFC;
-
+    img{
+        height: 80%;
+        width: 80%;
+        object-fit: contain;
     }
 }
 
-.habilidades-cards{
-
+.card-hab{
+    
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
     div{
-
+        
         background-color: #454545;
         width: 10vw;
-        padding: 5px 0px;
         height: 8vh;
         border-radius: 10px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        overflow: hidden;
+        transition: 0.3s;
+        
     }
 
     div:hover{
-
+    
         transition: 0.1s;
         background-color: #B5B5B5;
         height: 10vh;
         padding: 5px 20px;
-
+    
     }
-
-    img{
-
-        height: 100%;
-
-    }
-}
-
-.contatos{
-
-    height: 100vh;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 20px;
-
 
     h3{
 
-        align-self: flex-start;
-        color: #B5B5B5;
-        font-size: 14px;
+        align-self: center;
+
     }
-
-    h2{
-
-        align-self: flex-start;
-        font-size: 32px;
-        font-weight: 500;
-    }
-    
-    p{
-
-        font-size: 24px;
-        width: 50%;
-    }
-
-
 }
 
-
-
-.Redes{
+.redes{
 
     display: flex;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    width: 80%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 
     div{
         display: flex;
