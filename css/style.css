@@ -91,7 +91,7 @@ main{
     height: 20vw;
     border-radius: 50%;
     border: 3px solid #B5B5B5;
-    background-image: url('https://raw.githubusercontent.com/Thyagovis/thyago_dev-portifolio/refs/heads/main/assets/dev/dev.png');
+    background-image: url(https://avatars.githubusercontent.com/u/148657467?v=4);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
